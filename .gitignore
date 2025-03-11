@@ -6,3 +6,6 @@
 
 .winvenv
 .winvenv/*
+
+.macvenv
+.macvenv/*
