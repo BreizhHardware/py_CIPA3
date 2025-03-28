@@ -17,7 +17,7 @@ temps = [0]
 position_x = [0]
 position_y = [0]
 
-n = 30
+n = 50
 
 # Calcul des vitesses et positions
 for j in range(1, n):
@@ -37,7 +37,7 @@ for j in range(1, n):
 omega = q * B / m
 R = m * V0x / (q * B)
 position_x_exact = [R * np.sin(omega * t) for t in temps]
-position_y_exact = [R * (1 - np.cos(omega * t)) for t in temps]
+position_y_exact = [-R * (1 - np.cos(omega * t)) for t in temps]
 
 # Tracé de la trajectoire
 plt.figure(figsize=(10, 6))
