@@ -17,7 +17,7 @@ temps = [0]
 position_x = [0]
 position_y = [0]
 
-n = 50
+n = 37
 
 # Calcul des vitesses et positions
 for j in range(1, n):
